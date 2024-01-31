@@ -1,0 +1,143 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #3FAF82;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#line1,
+#line2,
+#line3 {
+    height: 10px;
+    width: 80px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ffff;
+}
+
+#line1,
+#line2 {
+    margin-bottom: 15px;
+}
+
+.line1animation {
+    animation: line1animated 1s forwards;
+}
+
+.line2animation {
+    animation: line2animated 1s forwards;
+}
+
+.line3animation {
+    animation: line3animated 1s forwards;
+}
+
+.rev-line1animation {
+    animation: reverse-line1animated 1s forwards;
+}
+
+.rev-line2animation {
+    animation: reverse-line2animated 1s forwards;
+}
+
+.rev-line3animation {
+    animation: reverse-line3animated 1s forwards;
+}
+
+@keyframes line1animated {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(23px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(23px) rotate(45deg);
+    }
+}
+
+@keyframes line2animated {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes line3animated {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-23px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-23px) rotate(135deg);
+    }
+}
+
+@keyframes reverse-line1animated {
+    0% {
+        transform: translateY(23px) rotate(45deg);
+    }
+
+    50% {
+        transform: translateY(23px) rotate(0);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+@keyframes reverse-line2animated {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes reverse-line3animated {
+    0% {
+        transform: translateY(-23px) rotate(135deg);
+    }
+
+    50% {
+        transform: translateY(-23px) rotate(0);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
