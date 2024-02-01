@@ -8,3 +8,6 @@ Visit [Day 2](https://yagna-gajjar.github.io/100_Days_Css/Day_2/)
 Visit [Day 3](https://yagna-gajjar.github.io/100_Days_Css/Day_3/)
 
 Visit [Day 4](https://yagna-gajjar.github.io/100_Days_Css/Day_4/)
+
+[![My Skills](https://skillicons.dev/icons?i=js)](https://github.com/Yagna-gajjar/Mini-Games/blob/main/Sudoku/sudoku.js)
+
