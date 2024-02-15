@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="frame">
+        <div class="center">
+            <div>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <img onmouseenter="circlerotate()" onmouseleave="circlerotatereverse()"
+                    src="https://100dayscss.com/codepen/jessica-potter.jpg" alt="photo" class="img">
+                <div class="all">
+                    <div class="name">Jessica Potter</div>
+                    <div class="job">Visual Artist</div>
+                </div>
+                <div class="action">
+                    <button class="btn">follow</button>
+                    <button class="btn">Message</button>
+                </div>
+            </div>
+            <div>
+                <div class="box1">
+                    <div class="box">
+                        <div class="value">523</div>
+                        <div class="parameter">post</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="box">
+                        <div class="value">1387</div>
+                        <div class="parameter">likes</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="box">
+                        <div class="value">146</div>
+                        <div class="parameter">followers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function circlerotate() {
+            document.getElementsByClassName('circle1')[0].classList.add('rotate1');
+            document.getElementsByClassName('circle2')[0].classList.add('rotate2');
+        }
+        function circlerotatereverse() {
+            document.getElementsByClassName('circle1')[0].classList.remove('rotate1');
+            document.getElementsByClassName('circle2')[0].classList.remove('rotate2');
+        }
+    </script>
+
+</body>
+
+</html>
