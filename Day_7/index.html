@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="frame">
+        <div class="list">
+            <div class="feature">
+                <i class="fa-solid fa-gauge list_icons"></i>
+                <span class="list_name">Dasboard</span>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-user list_icons"></i>
+                <span class="list_name">profile</span>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-bell list_icons"></i>
+                <span class="list_name">notification</span>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-message list_icons"></i>
+                <span class="list_name">message</span>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-gear list_icons"></i>
+                <span class="list_name">setting</span>
+            </div>
+        </div>
+        <div class="center">
+            <div class="navbar">
+                <input type="text" class="search" placeholder="Search...">
+                <div class="fa fa-list-ul icon" aria-hidden="true" onclick="div_moved()"></div>
+                <div class="Notifications">Notifications</div>
+                <div class="fa fa-search search-icon icon" onclick="search_appears()"></div>
+            </div>
+            <div class="content">
+                <div class="notifications clearfix">
+                    <div class="line"></div>
+                    <div class="notification" id="first">
+                        <div class="margin"></div>
+                        <div class="circle"></div>
+                        <div class="data">
+                            <span class="time">9:24 AM</span><br />
+                            <span><b>John Walker</b> posted a photo on your wall.</span>
+                        </div>
+                    </div>
+                    <div class="notification" id="second">
+                        <div class="margin"></div>
+                        <div class="circle"></div>
+                        <div class="data">
+                            <span class="time">8:19 AM</span><br />
+                            <span><b>Alice Parker</b> commented your last post.</span>
+                        </div>
+                    </div>
+                    <div class="notification" id="third">
+                        <div class="margin"></div>
+                        <div class="circle"></div>
+                        <div class="data">
+                            <span class="time">Yesterday</span><br />
+                            <span><b>Luke Wayne</b> added you as friend.</span>
+                        </div>
+                    </div>
+                    <div class="notification" id="first">
+                        <div class="margin"></div>
+                        <div class="circle"></div>
+                        <div class="data">
+                            <span class="time">9:24 AM</span><br />
+                            <span><b>John Walker</b> posted a photo on your wall.</span>
+                        </div>
+                    </div>
+                    <div class="notification" id="second">
+                        <div class="margin"></div>
+                        <div class="circle"></div>
+                        <div class="data">
+                            <span class="time">8:19 AM</span><br />
+                            <span><b>Alice Parker</b> commented your last post.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
