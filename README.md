@@ -14,3 +14,5 @@ Visit [Day 5](https://yagna-gajjar.github.io/100_Days_Css/Day_5/index.html)
 Visit [Day 6](https://yagna-gajjar.github.io/100_Days_Css/Day_6/)
 
 Visit [Day 7](https://yagna-gajjar.github.io/100_Days_Css/Day_7/)
+
+Visit [Day 8](https://yagna-gajjar.github.io/100_Days_Css/Day_8/)
